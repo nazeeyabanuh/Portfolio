@@ -458,6 +458,70 @@
     border-color: rgba(59,130,246,0.2);
   }
 
+/* ─── CERTIFICATES ───────────────────── */
+#certificates{
+  padding:100px 5vw;
+}
+
+.certificates-inner{
+  max-width:1100px;
+  margin:0 auto;
+}
+
+.certificates-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:1.5rem;
+}
+
+.certificate-card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:18px;
+  padding:1.8rem;
+  transition:all .25s ease;
+}
+
+.certificate-card:hover{
+  transform:translateY(-6px);
+  border-color:var(--accent-border);
+}
+
+.certificate-icon{
+  font-size:2rem;
+  margin-bottom:1rem;
+}
+
+.certificate-title{
+  font-family:'Syne',sans-serif;
+  font-size:1.1rem;
+  font-weight:700;
+  margin-bottom:.5rem;
+}
+
+.certificate-org{
+  color:var(--accent-bright);
+  font-size:.9rem;
+  margin-bottom:.5rem;
+}
+
+.certificate-date{
+  color:var(--text3);
+  font-size:.8rem;
+  margin-bottom:1rem;
+}
+
+.certificate-btn{
+  display:inline-block;
+  padding:.5rem 1rem;
+  border-radius:8px;
+  background:var(--accent-dim);
+  border:1px solid var(--accent-border);
+  color:var(--accent-bright);
+  text-decoration:none;
+  font-size:.85rem;
+}
+
   /* ─── PROJECTS ───────────────────────── */
   #projects {
     padding: 100px 5vw;
@@ -803,6 +867,7 @@
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#skills">Skills</a></li>
+    <li><a href="#certificates">Certificates</a></li>
     <li><a href="#projects">Projects</a></li>
     <li><a href="#experience">Internships</a></li>
     <li><a href="#education">Education</a></li>
@@ -820,6 +885,7 @@
 <div class="mobile-menu" id="mobileMenu">
   <a href="#about" onclick="closeMobile()">About</a>
   <a href="#skills" onclick="closeMobile()">Skills</a>
+    <a href="#certificates" onclick="closeMobile()">Certificates</a>
   <a href="#projects" onclick="closeMobile()">Projects</a>
   <a href="#experience" onclick="closeMobile()">Internships</a>
   <a href="#education" onclick="closeMobile()">Education</a>
@@ -997,6 +1063,108 @@
           <span class="stack-tag">HTML5</span>
           <span class="stack-tag">CSS3</span>
         </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATES -->
+<section id="certificates">
+  <div class="certificates-inner">
+
+    <div class="skills-header reveal">
+      <div class="section-label">Achievements</div>
+      <h2 class="section-heading">Certificates</h2>
+    </div>
+
+    <div class="certificates-grid">
+
+      <!-- Certificate 1 -->
+      <div class="certificate-card reveal">
+        <div class="certificate-icon">🏆</div>
+        <div class="certificate-title">
+          GE Aerospace - Explore Electrical Engineering Job Simulation
+        </div>
+        <div class="certificate-org">Forage</div>
+        <div class="certificate-date">2025</div>
+
+        <a href="c:\Users\nazee\Downloads\ge_aerospcae.pdf"
+           target="_blank"
+           class="certificate-btn">
+           View Certificate
+        </a>
+      </div>
+
+<!-- Certificate 2 -->
+
+ <div class="certificate-card reveal">
+        <div class="certificate-icon">🏆</div>
+        <div class="certificate-title">
+          Tata - GenAI Powered Data Analytics Job Simulation
+        </div>
+        <div class="certificate-org">Forage</div>
+        <div class="certificate-date">2026</div>
+
+        <a href="c:\Users\nazee\Downloads\tata_cert.pdf"
+           target="_blank"
+           class="certificate-btn">
+           View Certificate
+        </a>
+      </div>
+
+      <!-- Certificate 3 -->
+      <div class="certificate-card reveal">
+        <div class="certificate-icon">🤖</div>
+        <div class="certificate-title">
+          Python with Data Science
+        </div>
+        <div class="certificate-org">
+          IBM SkillsBuild
+        </div>
+        <div class="certificate-date">2025</div>
+
+        <a href="file:///C:/Users/nazee/Downloads/IBMDesign20260603-31-79ckmr.pdf"
+           target="_blank"
+           class="certificate-btn">
+           View Certificate
+        </a>
+      </div>
+
+      <!-- Certificate 4 -->
+      <div class="certificate-card reveal">
+        <div class="certificate-icon">💻</div>
+        <div class="certificate-title">
+          Deloitte Australia - Data Analytics Job Simulation
+        </div>
+        <div class="certificate-org">
+          Forage
+        </div>
+        <div class="certificate-date">2026</div>
+
+        <a href="file:///C:/Users/nazee/Downloads/deloite_certificate.pdf"
+           target="_blank"
+           class="certificate-btn">
+           View Certificate
+        </a>
+      </div>
+
+      <!-- Certificate 5 -->
+      <div class="certificate-card reveal">
+        <div class="certificate-icon">☁️</div>
+        <div class="certificate-title">
+          Data Science for Beginners
+        </div>
+        <div class="certificate-org">
+          Cursa
+        </div>
+        <div class="certificate-date">2025</div>
+
+        <a href="c:\Users\nazee\Downloads\cursa_datascience.jpeg"
+           target="_blank"
+           class="certificate-btn">
+           View Certificate
+        </a>
       </div>
 
     </div>
