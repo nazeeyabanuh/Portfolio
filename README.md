@@ -100,7 +100,7 @@ Expected Graduation: 2026
 * Email: nazeeyabanuh@gmail.com
 * LinkedIn: https://linkedin.com/in/nazeeya-banu-h
 * GitHub: https://github.com/nazeeyabanuh
-* Portfolio: https://portfolio-phi-two-x20t790hvv.vercel.app/
+* Portfolio: https://portfolio-two-hazel-hutw7j2pai.vercel.app/
 
 ## ⭐ Future Improvements
 
